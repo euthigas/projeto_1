@@ -1,0 +1,147 @@
+/* Estilo global */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo do cabeçalho */
+
+header {
+  background-color: #212529;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+nav li + li {
+  margin-left: 1rem;
+}
+
+nav a {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #fff;
+}
+
+/* Estilo do conteúdo principal */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+section ul {
+  display: flex;
+  grid-gap: 1rem;
+}
+
+section li {
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+section li img {
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+/* Estilo do formulário de contato */
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+/* Estilo do rodapé */
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
